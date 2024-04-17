@@ -1,0 +1,65 @@
+.conatiner-preview {
+  display: flex;
+  position: fixed;
+  height: 70vh;
+  width: 60vw;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 40%;
+  border: 1px solid rgb(17, 16, 16);
+  border-radius: 10px;
+  background-color: rgb(65, 66, 67);
+  padding: 1rem;
+}
+.chat-container-preview {
+  height: 65vh;
+  width: 100vw;
+  margin-top: 2rem;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.chat-container-preview::-webkit-scrollbar {
+  display: none;
+}
+
+.bot-preview {
+  display: flex;
+  margin-bottom: 0.5rem;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+.bot-response-preview {
+  display: flex;
+  margin-left: 0.5rem;
+  /* margin-bottom: 0.5rem; */
+}
+.left-preview {
+  display: flex;
+  width: 15%;
+  margin-right: 0.5rem;
+}
+.right-preview {
+  width: 85%;
+  height: max-content;
+  word-wrap: break-word;
+}
+
+.button-cross {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 5px;
+  background-color: rgb(49, 49, 49);
+  cursor: pointer;
+}
+.button-submit {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 5px;
+  background-color: rgb(49, 49, 49);
+  cursor: pointer;
+}
